@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/Templete.css">
+
+    <title>3star club</title>
+  </head>
+  <body>
+                <!-- Navobar start -->
+    <div class="container-fluid bg-dark px-0 ">
+        <div class="row gx-0">
+            <div class="col-lg-3 bg-dark d-none d-lg-block">
+                <a href="index.php" class="navbar-brand w-100 h-100  m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 style="color:white ;">3<span style="color:red ;">Star</span>Club</h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row gx-0 bg-secondary d-none d-lg-flex">
+                    <div class="col-lg-12 px-5 text-end">
+                        <div class="d-inline-flex align-items-center py-2 text-white">
+                            <form class="d-flex">
+                                <h2>Email</h2> 
+                                <!-- email is here -->
+                                
+                              </form>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5 ">
+                    <a href="index.php" class="navbar-brand d-block d-lg-none">
+                        <h1 style="color:white ;">3<span style="color:red ;">Star</span>Club</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between h-100" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0 ">
+                            <a href="index.php" class="nav-item nav-link active text-uppercase"><b>Home</b></a>
+                            <a href="services.html" class="nav-item nav-link text-uppercase"></b>Services</a>
+                            <a href="about.html" class="nav-item nav-link text-uppercase">About</a>
+                            <a href="contact.html" class="nav-item nav-link text-uppercase" style="color:red">Contact</a>
+                           
+                            </div>
+                           
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- navobar End -->
+
+    
+
+    
+
+    <!-- contact start -->
+    <div class="container pt-5">
+        <div class="row text-center">
+            <h4 class="text-danger font-weight-bold">Get In Touch</h4>
+            <h1 class="font-weight-bold">Email Us For Any Query</h1>
+
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-4 text-center">
+                <i class="fa fa-2x fa-map-marker-alt mb-3 text-danger"></i>
+                <h2 class="font-weight-bold">Address</h2>
+                <h4>123 Street, Peshawar,Pak</h4>
+            </div>
+
+            <div class="col-sm-4  text-center">
+                <i class="fa fa-2x fa-phone-alt mb-3 text-danger"></i>
+                <h2 class="font-weight-bold">Phone</h2>
+                <h4>+92-300-1234567</h4>
+            </div>
+
+            <div class="col-sm-4  text-center">
+                <i class="far fa-2x fa-envelope mb-3 text-danger"></i>
+                <h2 class="font-weight-bold">Email</h2>
+                <h4>3starclub@yahoo.com</h4>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6 pb-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52925.342351702224!2d71.4801152!3d33.9968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1655439272627!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 pb-5  ">
+                <div class="contact-form p-5">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-danger" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- contact End -->
+
+
+                                <!-- Footer Start -->
+    <div class="footer container-fluid bg-dark text-white mt-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street,Peshawar, Pak</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+092 300 1234567</p>
+                <p><i class="fa fa-envelope mr-2"></i>3starclub@yahoo.com</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Opening Hours</h4>
+                <h5 class="text-white">Monday - Friday</h5>
+                <p>8.00 AM - 8.00 PM</p>
+                <h5 class="text-white">Saturday - Sunday</h5>
+                <p>2.00 PM - 8.00 PM</p>
+            </div>
+        </div>
+        <div class="container border-top border-light pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="#">Fitness Club</a>. All Rights Reserved. Designed by
+                <a class="text-white font-weight-bold" href="https://htmlcodex.com">3 Star Group</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    
+        
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
